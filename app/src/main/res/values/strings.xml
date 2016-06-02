@@ -1,0 +1,52 @@
+<resources>
+    <string name="google_app_id" translatable="false">ROHIT_APP_ID</string>
+    
+    <!-- activity or app names -->
+    <string name="app_name" translatable="false">Stock Hawk</string>
+    <string name="title_activity_track_stock">Track</string>
+
+    <!-- error messages for widget -->
+    <string name="widget_error_no_stocks">You are not tracking any stocks currently</string>
+
+    <!-- error messages related to new symbol add feature -->
+    <string name="new_symbol_toast_empty">You haven\'t entered any symbol!</string>
+    <string name="new_symbol_toast_already_existing">This stock is already saved!</string>
+    <string name="new_symbol_network_toast">Uh-oh! This feature requires an internet connection</string>
+
+    <!-- related to MyStocksActivity -->
+    <string name="mystocks_error_no_stocks">You currently have no stocks to track.</string>
+    <string name="mystocks_add_contentdescription">Press this if you want to track a new stock</string>
+
+    <!-- related to add symbol dialog -->
+    <string name="symbol_search">Symbol Search</string>
+    <string name="content_test">Search for a Stock Symbol</string>
+    <string name="input_hint" translatable="false">FB</string>
+    <string name="input_prefill"></string>
+
+    <!-- settings strings -->
+    <string name="action_settings">Settings</string>
+    <string name="action_change_units">Change Units</string>
+
+    <!-- toast messages -->
+    <string name="toast_some_problem">Some problem occurred!</string>
+    <string name="toast_service_fetching_GOOG_default">Fetching stock quote for GOOG by default</string>
+    <string name="toast_service_invalid_stock">is invalid stock!</string>
+    <string name="toast_service_connection_timeout">Can\'t connect to server because of no or weak internet connection!</string>
+
+    <!-- related to list item content description -->
+    <string name="list_item_quote_contentdescription_symbol_template">Stock quote for symbol</string>
+    <string name="list_item_quote_contentdescription_bidprice_template">Current bid price is</string>
+    <string name="list_item_quote_contentdescription_change_template">Stock price has changed by</string>
+
+    <!-- related to snackbar -->
+    <string name="snackbar_out_of_date_stocks">Adding or updating stock feature unavailable because of no internet connection!</string>
+    <string name="snackbar_can_not_add_stocks">Adding new stock feature unavailable because of no internet connection!</string>
+
+    <!-- related to TrackStockActivity -->
+    <string name="trackstock_error_current_bidprice_unavailable">Current bid price is not available!</string>
+    <string name="trackstock_error_history_unavailable">No history as of now!</string>
+    <string name="trackstock_error_history_outdated">History is outdated!</string>
+    <string name="trackstock_label_at_moment">at moment</string>
+    <string name="trackstock_error_cant_update">Can\'t fetch history because of no internet connection!</string>
+    <string name="trackstock_chart_contentdescription">chart showing last 20 days closing values of this stock</string>
+</resources>
